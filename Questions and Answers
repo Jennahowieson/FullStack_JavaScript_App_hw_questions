@@ -31,3 +31,8 @@ Which of the games API routes does the front-end application consume (i.e. make 
 What are we using the MongoDB Driver for?
 - When NPM install is run at the beginning, MongoDB driver is installed as a dependency of the program.
 - The driver allows the React app to connect to MongoDB and use the data.
+
+Why do we need to use ObjectId from the MongoDB driver?
+- The objectID is a unique value assigned to each item in the database, using this allows us to interact with an individual instance in the database, by taking actions such as delete or update. 
+
+
